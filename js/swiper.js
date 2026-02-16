@@ -10,10 +10,10 @@ const swiperWorks = new Swiper('.swiper-works', {
 		clickable: 'true',
 	},
 
-	// autoplay: {
-	// 	delay: 4000,
-	// 	disableOnInteraction: false,
-	// },
+	autoplay: {
+		delay: 4000,
+		disableOnInteraction: false,
+	},
 
 	navigation: {
 		nextEl: '.swiper-button-next',
