@@ -277,6 +277,7 @@ section {
     color: #fff;
     padding: 10px 15px;
     border-radius: 50%;
+    font-weight: 800;
     background-color: #c41b1e;
 }
 
@@ -288,7 +289,7 @@ section {
     border: 2px solid #c41b1e;
     text-align: center;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 27px;
     margin-top: 40px;
 }
 
