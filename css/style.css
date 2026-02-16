@@ -191,7 +191,7 @@ section {
 }
 
 .thanks__img {
-    max-width: 320px;
+    max-width: 380px;
 }
 
 .thanks__title {
@@ -403,7 +403,7 @@ section {
 
     .swiper-thanks {
         max-width: 500px;
-        height: 510px;
+        height: 580px;
     }
 }
 
