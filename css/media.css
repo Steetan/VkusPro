@@ -1,0 +1,125 @@
+@media (min-width: 1280px) {
+    .menu__link {
+        color: rgba(0, 0, 0, 0.737254902);
+    }
+
+    .menu__link:hover {
+        color: #000;
+    }
+}
+
+@media (max-width: 1080px) {
+    .menu-burger {
+        display: block;
+    }
+
+    .menu--active {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .menu--active .menu__list--active {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .menu__list {
+        display: none;
+    }
+}
+
+@media (max-width: 880px) {
+    .swiper-slide__img--works {
+        max-width: 350px;
+        border-radius: 10px;
+    }
+
+    .swiper-works {
+        max-width: 700px;
+        height: 500px;
+    }
+
+    .swiper-thanks {
+        max-width: 500px;
+        height: 510px;
+    }
+}
+
+@media (max-width: 830px) {
+    .thanks__inner {
+        flex-direction: column;
+    }
+
+    #map {
+        margin: 0 20px 20px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 740px) {
+    .swiper-slide-active {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide__img--works {
+        max-width: 250px;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .swiper-works {
+        max-width: 500px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 620px) {
+    .contacts__info {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .contacts__soc {
+        margin: 0 auto;
+    }
+
+    .contacts__img {
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    .about__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .swiper-works {
+        max-width: 500px;
+        height: 500px;
+    }
+
+    .swiper-works img {
+        max-width: 350px;
+    }
+
+    .swiper-thanks {
+        max-width: 320px;
+        height: 400px;
+    }
+
+    .swiper-thanks img {
+        max-width: 230px;
+    }
+}
