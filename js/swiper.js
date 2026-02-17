@@ -14,11 +14,6 @@ const swiperWorks = new Swiper('.swiper-works', {
 		delay: 4000,
 		disableOnInteraction: false,
 	},
-
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
 })
 
 const swiperThanks = new Swiper('.swiper-thanks', {

@@ -7,10 +7,12 @@ html {
 *,
 ::before,
 ::after {
+     font-family: "Shantell Sans", cursive;
+  font-weight: 400;
+  font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: sans-serif;
 }
 
 a {
@@ -176,8 +178,8 @@ section {
 
 .title {
     text-align: center;
-    margin-bottom: 40px;
-    font-weight: 800;
+    margin: 20px 0 40px;
+    font-weight: 700;
 }
 
 .thanks {
@@ -251,7 +253,7 @@ section {
 }
 
 #map {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     height: 400px;
     margin-bottom: 30px;
@@ -291,6 +293,32 @@ section {
     font-weight: 800;
     font-size: 27px;
     margin-top: 40px;
+}
+
+.about__secret-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.about__secret-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.about__secret-img {
+    max-width: 100px;
+}
+
+.about__secret-title {
+    text-align: center;
+    color: #c41b1e;
+    font-size: 30px;
 }
 
 .menu-burger {
@@ -436,6 +464,12 @@ section {
     }
 }
 
+@media (max-width: 670px) {
+    .about__secret-title {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 620px) {
     .contacts__info {
         max-width: 400px;
@@ -456,6 +490,12 @@ section {
 @media (max-width: 580px) {
     .about__list {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about__secret-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 
     .swiper-works {
