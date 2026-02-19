@@ -152,8 +152,10 @@ section {
 }
 
 .swiper-slide__img--works {
-    max-width: 430px;
+    max-width: 450px;
+    width: 100%;
     border-radius: 10px;
+    height: auto;
 }
 
 .swiper-intro {
@@ -477,7 +479,9 @@ section {
         text-align: center;
         font-size: 20px;
     }
-
+    .contacts__point {
+        font-size: 15px;
+    }
     .contacts__soc {
         margin: 0 auto;
     }
@@ -514,5 +518,11 @@ section {
 
     .swiper-thanks img {
         max-width: 230px;
+    }
+}
+
+@media (max-width: 540px) {
+    .intro__title {
+        font-size: 35px;
     }
 }

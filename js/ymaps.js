@@ -7,11 +7,10 @@ async function initMap() {
 		[56.872044, 35.843768],
 		[56.849325, 35.937328],
 		[56.842635, 35.790076],
+		[56.854478, 35.870915]
 	]
 
-	// Иницилиазируем карту
 	const map = new ymaps.Map(
-		// Передаём ссылку на HTMLElement контейнера
 		document.getElementById('map'),
 		{
 			center: [56.861648, 35.899679],
@@ -28,10 +27,6 @@ async function initMap() {
 				{},
 				{
 					preset: 'islands#redIcon',
-					// iconLayout: 'default#image',
-					// iconImageHref: '../items/marker.png',
-					// iconImageSize: [20, 20],
-					// iconImageOffset: [0, 0],
 				},
 			),
 		)
